@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import {
-  CaretSortIcon,
+  // CaretSortIcon,
   CheckIcon,
   ChevronDownIcon,
   ChevronUpIcon,

@@ -1,10 +1,10 @@
 import React from "react";
 import {
   Drawer,
-  DrawerClose,
+  // DrawerClose,
   DrawerContent,
   DrawerDescription,
-  DrawerFooter,
+  // DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
