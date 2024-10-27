@@ -37,7 +37,6 @@ const MobileFilters = () => {
             <Filters />
           </div>
         </DrawerContent>
-      </Drawer>
     </>
   );
 };
