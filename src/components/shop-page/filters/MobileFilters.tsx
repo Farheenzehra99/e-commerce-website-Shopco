@@ -15,7 +15,7 @@ import Filters from "./SizeSection";
 const MobileFilters = () => {
   return (
     <>
-      <Drawer>
+      
         <DrawerTrigger asChild>
           <button
             type="button"

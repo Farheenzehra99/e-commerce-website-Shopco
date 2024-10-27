@@ -5,8 +5,8 @@ const createNoopStorage = () => {
     getItem() {
       return Promise.resolve(null);
     },
-    setItem( value: string) {
-      return Promise.resolve(value);
+    setItem() {
+      return Promise.resolve(null);
     },
     removeItem() {
       return Promise.resolve();
