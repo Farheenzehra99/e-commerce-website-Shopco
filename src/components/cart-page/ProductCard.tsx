@@ -45,6 +45,9 @@ const ProductCard = ({ data }: ProductCardProps) => {
             {data.name}
           </Link>
           <Button
+            variant="ghost"
+            size="icon"
+            className="h-5 w-5 md:h-9 md:w-9"
             onClick={() =>
               dispatch(
                 remove({
@@ -54,7 +57,6 @@ const ProductCard = ({ data }: ProductCardProps) => {
                 })
               )
             }
-
           >
             <PiTrashFill className="text-xl md:text-2xl text-red-600" />
           </Button>

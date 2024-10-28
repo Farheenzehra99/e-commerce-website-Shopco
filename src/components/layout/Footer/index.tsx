@@ -18,17 +18,17 @@ const socialsData: SocialNetworks[] = [
   {
     id: 2,
     icon: <FaFacebookF />,
-    url: "https://www.facebook.com/profile.php?id=61552506270420",
+    url: "https://facebook.com",
   },
   {
     id: 3,
     icon: <FaInstagram />,
-    url: "https://www.instagram.com/farheen11099/",
+    url: "https://instagram.com",
   },
   {
     id: 4,
     icon: <FaGithub />,
-    url: "https://github.com/Farheenzehra99",
+    url: "https://github.com/mohammadoftadeh",
   },
 ];
 
@@ -105,10 +105,10 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
               Shop.co © Made by{" "}
               <Link
-                href="https://github.com/Farheenzehra99"
+                href="https://github.com/mohammadoftadeh"
                 className="text-black font-medium"
               >
-                Syeda Farheen Zehra
+                Mohammad Oftadeh
               </Link>
               {", "}
               Designed by{" "}

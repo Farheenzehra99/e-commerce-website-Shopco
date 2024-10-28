@@ -2,7 +2,7 @@
 
 import BreadcrumbCart from "@/components/cart-page/BreadcrumbCart";
 import ProductCard from "@/components/cart-page/ProductCard";
-
+import { Button } from "@/components/ui/button";
 import InputGroup from "@/components/ui/input-group";
 import { cn } from "@/lib/hooks/utils";
 import { integralCF } from "@/styles/fonts";
@@ -10,20 +10,9 @@ import { FaArrowRight } from "react-icons/fa6";
 import { MdOutlineLocalOffer } from "react-icons/md";
 import { TbBasketExclamation } from "react-icons/tb";
 import React from "react";
-import { configureStore } from "@reduxjs/toolkit";
-import { cartsSlice } from "@/lib/features/carts/cartsSlice";
+import { RootState } from "@/lib/hooks/store";
 import { useAppSelector } from "@/lib/hooks/redux";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-
-export const store = configureStore({
-  reducer: {
-    carts: cartsSlice.reducer,
-  },
-});
-
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
 
 export default function CartPage() {
   const { cart, totalPrice, adjustedTotalPrice } = useAppSelector(
@@ -46,7 +35,7 @@ export default function CartPage() {
             </h2>
             <div className="flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 items-start">
               <div className="w-full p-3.5 md:px-6 flex-col space-y-4 md:space-y-6 rounded-[20px] border border-black/10">
-                {cart?.items.map((product , idx , arr ) => (
+                {cart?.items.map((product, idx, arr) => (
                   <React.Fragment key={idx}>
                     <ProductCard data={product} />
                     {arr.length - 1 !== idx && (

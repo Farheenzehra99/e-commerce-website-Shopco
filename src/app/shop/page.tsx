@@ -72,27 +72,30 @@ export default function ShopPage() {
             </div>
             <hr className="border-t-black/10" />
             <Pagination className="justify-between">
-              <PaginationPrevious href="#" className="border border-black/10" size={undefined} />
+              <PaginationPrevious href="#" className="border border-black/10" />
               <PaginationContent>
                 <PaginationItem>
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm"
-                                      isActive size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                    isActive
+                  >
                     1
                   </PaginationLink>
                 </PaginationItem>
                 <PaginationItem>
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm" size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                  >
                     2
                   </PaginationLink>
                 </PaginationItem>
                 <PaginationItem className="hidden lg:block">
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm" size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                  >
                     3
                   </PaginationLink>
                 </PaginationItem>
@@ -101,28 +104,31 @@ export default function ShopPage() {
                 </PaginationItem>
                 <PaginationItem className="hidden lg:block">
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm" size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                  >
                     8
                   </PaginationLink>
                 </PaginationItem>
                 <PaginationItem className="hidden sm:block">
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm" size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                  >
                     9
                   </PaginationLink>
                 </PaginationItem>
                 <PaginationItem>
                   <PaginationLink
-                                      href="#"
-                                      className="text-black/50 font-medium text-sm" size={undefined}                  >
+                    href="#"
+                    className="text-black/50 font-medium text-sm"
+                  >
                     10
                   </PaginationLink>
                 </PaginationItem>
               </PaginationContent>
 
-              <PaginationNext href="#" className="border border-black/10" size={undefined} />
+              <PaginationNext href="#" className="border border-black/10" />
             </Pagination>
           </div>
         </div>

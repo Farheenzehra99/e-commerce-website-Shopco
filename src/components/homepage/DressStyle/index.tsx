@@ -2,7 +2,7 @@ import { cn } from "@/lib/hooks/utils";
 import { integralCF } from "@/styles/fonts";
 import React from "react";
 import * as motion from "framer-motion/client";
-import DressStyleCard from "./DressStyle";
+import DressStyleCard from "./DressStyleCard";
 
 const DressStyle = () => {
   return (

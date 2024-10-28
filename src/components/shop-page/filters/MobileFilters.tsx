@@ -1,21 +1,21 @@
 import React from "react";
 import {
   Drawer,
-  // DrawerClose,
+  DrawerClose,
   DrawerContent,
   DrawerDescription,
-  // DrawerFooter,
+  DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { FiSliders } from "react-icons/fi";
-import Filters from "./SizeSection";
+import Filters from ".";
 
 const MobileFilters = () => {
   return (
     <>
-      
+      <Drawer>
         <DrawerTrigger asChild>
           <button
             type="button"
@@ -37,6 +37,7 @@ const MobileFilters = () => {
             <Filters />
           </div>
         </DrawerContent>
+      </Drawer>
     </>
   );
 };

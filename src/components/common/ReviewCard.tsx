@@ -41,9 +41,6 @@ const ReviewCard = ({
           <Button variant="ghost" size="icon">
             <IoEllipsisHorizontal className="text-black/40 text-2xl" />
           </Button>
-
-
-
         )}
       </div>
       <div className="flex items-center mb-2 sm:mb-3">

@@ -33,8 +33,6 @@ const ResTopNavbar = ({ data }: { data: NavMenu }) => {
         />
       </SheetTrigger>
       <SheetContent side="left" className="overflow-y-auto">
-
-
         <SheetHeader className="mb-10">
           <SheetTitle asChild>
             <SheetClose asChild>
@@ -62,7 +60,7 @@ const ResTopNavbar = ({ data }: { data: NavMenu }) => {
                         {item.label}
                       </AccordionTrigger>
                       <AccordionContent className="p-4 pb-0 border-l flex flex-col">
-                        {item.children.map((itemChild, ) => (
+                        {item.children.map((itemChild, idx) => (
                           <SheetClose
                             key={itemChild.id}
                             asChild

@@ -74,11 +74,9 @@ const Reviews = ({ data }: ReviewsProps) => {
               <CarouselPrevious variant="ghost" className="text-2xl">
                 <FaArrowLeft />
               </CarouselPrevious>
-
               <CarouselNext variant="ghost" className="text-2xl">
                 <FaArrowRight />
               </CarouselNext>
-
             </div>
           </div>
           <CarouselContent>

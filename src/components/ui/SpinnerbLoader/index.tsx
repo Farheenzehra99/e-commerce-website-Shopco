@@ -2,7 +2,7 @@ import React from "react";
 import s from "./SpinnerbLoader.module.css";
 import cn from "clsx";
 
-const SpinnerbLoader = ({ className }: { className?: string }) => {
+const SpinnerbLoader = ({ className }: any) => {
   return <span className={cn(s.Loader, {}, className && className)}></span>;
 };
 
